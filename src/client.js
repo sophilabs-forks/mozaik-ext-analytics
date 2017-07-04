@@ -56,6 +56,7 @@ const client = (mozaik) => {
       return analyzer.getTopPages({
         id: params.id,
         dimensions: params.dimensions,
+        maxResults: params.maxResults,
         startDate: params.startDate,
         endDate: params.endDate
       });

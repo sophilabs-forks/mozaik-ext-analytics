@@ -26,6 +26,7 @@ class TopPages extends Component {
       params: {
         id: this.props.id,
         dimensions: this.props.dimensions,
+        maxResults: this.props.maxResults,
         startDate: this.props.startDate,
         endDate: this.props.endDate
       }
